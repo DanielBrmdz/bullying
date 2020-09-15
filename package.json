@@ -1,0 +1,19 @@
+{
+  "name": "bullying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Espinosa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "^14.8.0",
+    "socket.io": "^2.3.0",
+    "websocket": "^1.0.32"
+  }
+}

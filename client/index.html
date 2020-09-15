@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="socket.io.js"></script>
+    <script src="controller.js"></script>
+    <title>Bullying</title>
+</head>
+
+<body>
+    <nav>
+        <p id="online"></p>
+    </nav>
+    <div class="container">
+        <div class="leader-div">
+            <div class="button">
+                <p id="leader"></p>
+                <button id="give-up" onclick="giveUp()">Renunciar</button>
+            </div>
+        </div>
+        <div class="logs">
+            <table id="table">
+                <tr>
+                    <th>HORA</th>
+                    <th>CAMBIOS</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
